@@ -9,6 +9,4 @@ Input Format
 Output Format 
 * Display the average of the N integers, rounded off to three decimal places.
 
-Input Constraints 
-1 <= N <= 500 
--10000 <= x <= 10000 (x refers to elements of the list of integers for which the average is to be computed)
+Link: https://www.hackerrank.com/challenges/bash-tutorials---compute-the-average
