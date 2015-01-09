@@ -6,9 +6,9 @@ If we list all the natural numbers below 10 that are multiples of 3 or 5, we get
 Find the sum of all the multiples of 3 or 5 below N.
 
 Input Format 
-First line contains T that denotes the number of test cases. This is followed by T lines, each containing an integer, N.
+* First line contains T that denotes the number of test cases. This is followed by T lines, each containing an integer, N.
 
 Output Format 
-For each test case, print an integer that denotes the sum of all the multiples of 3 or 5 below N.
+* For each test case, print an integer that denotes the sum of all the multiples of 3 or 5 below N.
 
 Link: https://www.hackerrank.com/contests/projecteuler/challenges/euler001
