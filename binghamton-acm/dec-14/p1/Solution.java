@@ -7,7 +7,6 @@ import java.util.regex.*;
 public class Solution {
 
     public static void main(String[] args) {
-        int lineNum = 0;
         Scanner input = new Scanner(System.in);
         
         while(input.hasNext()){
