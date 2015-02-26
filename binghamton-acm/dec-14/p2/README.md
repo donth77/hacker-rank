@@ -20,8 +20,8 @@ Given n pokemon cards, you will have a file of n lines where each line contains 
 
 Elon  
 name number  
-.
-.
+.  
+.  
 name number  
 Patrick  
 name number  
