@@ -18,18 +18,17 @@ Input Format
 
 Given n pokemon cards, you will have a file of n lines where each line contains the format:
 
-* Elon
-* name number
-* .
-* .
-* name number
-* Patrick
-* name number
-* .
-* .
-* .
-* name number
-
+Elon  
+name number  
+.
+.
+name number  
+Patrick  
+name number  
+.  
+.  
+.  
+name number  
 where name is the name of the card, and the #number is the pokemons number according to the national dex.
 
 Output Format
