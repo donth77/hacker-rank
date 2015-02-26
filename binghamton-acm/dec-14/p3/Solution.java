@@ -34,8 +34,6 @@ public class Solution {
                              B = Double.parseDouble(tokens[1]);
                             break;                                            
                     }
-                
-                //System.out.println(tokens[1]);
             }
         }
         
