@@ -16,7 +16,7 @@ public class Solution {
             Set<Long> set = new HashSet<Long>();
             if(lineNum > 1){
                 String[] tokens = line.split("\\s+");
-				for(int i = 1; i < tokens.length; i++){
+		for(int i = 1; i < tokens.length; i++){
                      set.add(Long.parseLong(tokens[i]));
                 }
                                   
