@@ -62,7 +62,7 @@ public class Solution {
             int col = grid.get(i).size();
             for(int j = 0; j < col; j++){
                 String currSpace = grid.get(i).get(j);
-                if(i < (col - 1)){
+                if(i < (row - 1)){
                     String lowerSpace = grid.get(i + 1).get(j);
                     if(((currSpace.equals("."))) && lowerSpace.equals(" ")){
                         grid.get(i).set(j, " ");
