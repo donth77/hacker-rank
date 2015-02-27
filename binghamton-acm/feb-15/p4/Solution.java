@@ -26,7 +26,7 @@ public class Solution {
                     row.add(tokens[i]);
                 }
                 grid.add(row);
-			}
+	    }
             
         }
         
@@ -42,8 +42,7 @@ public class Solution {
             for(int i = 1; i < tokens.length; i++){
                  row.add(tokens[i]);
              }
-                grid.add(row);
-            
+             grid.add(row);
         }
 
         gravityFalls();
