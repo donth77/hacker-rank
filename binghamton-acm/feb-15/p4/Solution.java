@@ -64,8 +64,7 @@ public class Solution {
                 String currSpace = grid.get(i).get(j);
                 if(i < (col - 1)){
                     String lowerSpace = grid.get(i + 1).get(j);
-                    if((!(currSpace.equals(" "))) && !(currSpace.equals("#")) && 
-                    lowerSpace.equals(" ") && (!(lowerSpace.equals("#")))){
+                    if(((currSpace.equals("."))) && lowerSpace.equals(" ")){
                         grid.get(i).set(j, " ");
                         grid.get(i + 1).set(j, ".");
                     }
