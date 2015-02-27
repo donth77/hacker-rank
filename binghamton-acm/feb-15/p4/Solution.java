@@ -30,7 +30,7 @@ public class Solution {
             
         }
         
-        //iin the case of a blank line but the grid is not done being created
+        //in the case of a blank line but the grid is not done being created
         while(lineNum <= N){
             lineNum++;
             String line = "";
@@ -64,7 +64,8 @@ public class Solution {
                 String currSpace = grid.get(i).get(j);
                 if(i < (col - 1)){
                     String lowerSpace = grid.get(i + 1).get(j);
-                    if((!(currSpace.equals(" "))) && !(currSpace.equals("#")) && lowerSpace.equals(" ") && (!(lowerSpace.equals("#")))){
+                    if((!(currSpace.equals(" "))) && !(currSpace.equals("#")) && 
+                    lowerSpace.equals(" ") && (!(lowerSpace.equals("#")))){
                         grid.get(i).set(j, " ");
                         grid.get(i + 1).set(j, ".");
                     }
